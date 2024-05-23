@@ -1,0 +1,58 @@
+@import "../../styles/constants";
+
+.header {
+  height: 16rem;
+  background-color: $primary-dark-color;
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.5);
+  width: 100%;
+
+
+.logo {
+  width: 20rem;
+  height: 15rem;
+  background-image: url("/public/svg/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  column-gap: 1.5rem;
+
+  li {
+    color: $light-color;
+    font-size: 2.5rem;
+    a {
+      color: $light-color;
+      font-family: "Lora", serif;
+      font-weight: 400;
+    }
+  }
+}
+.container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 0 13.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: $primary-color;
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: $xl) {
+  .container {
+    padding: 0 6rem;
+  }
+} 
+}

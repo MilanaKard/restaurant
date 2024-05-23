@@ -1,0 +1,173 @@
+@import "../../../styles/constants";
+
+.scroll-text {
+  transform-origin: left;
+  transform: rotate(90deg);
+  position: relative;
+  left: 2.4rem;
+  height: 10rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 51.82% 48.18%;
+  grid-auto-rows: minmax(115.7rem, auto);
+  gap: 17rem 0;
+  padding-top: 8rem;
+  position: relative;
+  & div:first-child {
+    z-index: 1000;
+  }
+
+  & div {
+    position: relative;
+  }
+}
+
+.spices-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  right: calc(24%);
+  top: -20rem;
+  z-index: 10000;
+}
+
+.image1 {
+  background-image: url("/public/png/Image.png");
+  z-index: -10;
+  position: relative;
+  max-width: 79.2rem;
+  height: 93.1rem;
+  margin: 0rem 0 0 auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.title_main {
+  position: relative;
+  width: 140%;
+  z-index: 100;
+  margin-bottom: 5rem;
+}
+
+.spice {
+  width: 25rem;
+  height: 24rem;
+  background-size: contain;
+}
+
+.item1 {
+  height: max-content;
+  padding-bottom: 40rem;
+  z-index: 1000;
+}
+
+.image2 {
+  background-image: url("/public/png/Image3.png");
+  max-width: 79.2rem;
+  height: 56rem;
+  background-position: top left;
+  background-size: cover;
+  background-position: center;
+}
+
+.title_3 {
+  max-width: 59rem;
+  margin: 5.4rem 0;
+}
+
+.text {
+  max-width: 65rem;
+}
+
+.text3 {
+  max-width: 50.8rem;
+  margin-left: auto;
+  margin-bottom: 8.4rem;
+}
+
+.image3 {
+  background-image: url("/public/png/Image2.png");
+  max-width: 50.8rem;
+  height: 71rem;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9rem 0;
+}
+
+.cook {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-auto-rows: minmax(90rem, auto);
+  padding: 9rem 0 0;
+}
+
+.cook__image {
+  background-image: url("/public/png/cook.png");
+  height: 90rem;
+  background-position: right;
+}
+
+.cook__text {
+  margin: 2rem;
+}
+
+.big-leaf {
+  width: 50rem;
+  height: 45rem;
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+  background-image: url("/public/svg/leaf.svg");
+  background-repeat: no-repeat;
+}
+
+.cook__info {
+position: relative;
+}
+
+.reviews-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72rem;
+  flex-direction: column;
+  row-gap: 7rem;
+}
+
+.reviews {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  column-gap: 7rem;
+}
+
+.reviews__title {
+  text-align: center;
+  padding: 7rem 0 5rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .cook {
+    grid-template-columns: 40% 60%;
+  }
+  .reviews {
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .reviews-buttons {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+
+.form {
+  padding-top: 8em;
+}
+
+.title, .text {
+  text-align: center;
+}
+.title {
+  padding: 5rem 0;
+}
+
+.cards {
+  display: flex;
+  padding-bottom: 5rem;
+  column-gap: 3.5rem;
+}
+
+.button {
+  display: flex;
+ justify-content: right;
+ padding-top: 5rem;
+}

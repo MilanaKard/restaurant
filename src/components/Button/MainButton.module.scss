@@ -1,0 +1,37 @@
+@import "../../styles/constants";
+
+.button,
+.button-disabled {
+  padding: 2rem 8rem;
+  width: fit-content;
+  height: fit-content;
+  line-height: 2rem;
+  color: $light-color;
+  background-color: $primary-color;
+  font-weight: 400;
+    font-size: 3rem;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    background: $additional-color;
+    transition: 0.4s;
+  transition: all .4s;
+}
+
+.button {
+
+
+}
+
+
+@media (hover: hover) {
+  .button:hover {
+    cursor: pointer;
+    background-color: $primary-dark-color;
+  }
+}
+
+.button-disabled {
+  cursor: not-allowed;
+  color: $disabled-color;
+}
