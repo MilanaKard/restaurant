@@ -5,5 +5,5 @@
 ![screenshot](/public/png/scr0.PNG)
 
 ### Форма отзыва с валидацией
-![screenshot](/public/png/Scr2.PNG)
-![screenshot](/public/png/Scr1.PNG)
+![screenshot](/public/png/Scr2.png)
+![screenshot](/public/png/Scr1.png)
